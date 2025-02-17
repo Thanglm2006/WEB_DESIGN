@@ -1,0 +1,61 @@
+ .content-title{
+    flex: 2;
+    font-size: 22px;
+    float: left;
+    width: 70%;
+}
+.paper{
+    margin-bottom:500px;
+}
+.paper-title{
+    font-size: 28px;
+    background-color: rgb(144, 148, 148);
+}
+.paper-image img{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.h1{
+    font-size: 32px;
+    background-color: aqua;
+}
+.login{
+    background-color: #05f124;
+    border: 1px solid #292828;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px; margin: auto;
+}
+
+.menu{
+    text-align: left;
+    background-color: antiquewhite;
+}
+.menu-item{
+    display: flex;
+    margin-bottom: 40px;
+}
+.item-image{
+    flex: 2;
+    width: 30%;
+    float: left;
+    width: 500px;
+}
+.item-content{
+    float: left;
+    font-size: 40px;
+    width: 70%;
+}
+.li1{
+    font-size: 50px;
+}
+.li2{
+    font-size: 40px;
+}
+.list{
+    list-style-position: inside;
+    text-align: left;
+    padding:0;
+}
