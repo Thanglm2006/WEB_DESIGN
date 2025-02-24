@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bài 1:</h1>
+    <br>
+    <h1>Đăng kí tài khoản</h1><br>
+
+    <div class="bt">
+        <h2>Thông tin cá nhân</h2>
+        <form action="">
+            <label for="ht" style="text-align: left; width: 30%;">Họ và tên: </label>
+            <input type="text" name="ht" required style="width: 70%">
+            <br>
+            <label for="gt" style="text-align: left; width: 30%">Giới tính: </label>
+            <select name="gt" id="gt" required >
+                <option value="Nam" selected>Nam</option>
+                <option value="Nữ">Nữ</option>
+            </select>
+            <br>
+            <label for="addr" style="width: 30%; text-align: left;">Địa chỉ: </label>
+            <input type="text" required style="width: 70%;" name="addr">
+            <br>
+            <label for="">Bạn muốn liên lạc bằng: </label>
+            <label for="op1">Email</label>
+            <input type="radio" id="op1" name="contact" required checked>
+            <label for="op2">Số điện thoại</label>
+            <input type="radio" id="op2" name="contact" required >
+            <br>
+            <label for="">Sở thích: </label>
+            <input type="checkbox" value="Đá Bóng" name="football" ><label for="football">Đá Bóng</label>
+            <input type="checkbox" value="Văn nghệ" name="art" checked  ><label for="art">Văn nghệ</label>
+            <input type="checkbox" value="Giao tiếp" name="communication"  checked><label for="communication">Giao tiếp</label>
+            <input type="checkbox" value="Học tập" name="studying" ><label for="studying">Học tập</label>
+            <br>
+        </form>
+        <h2>Tài khoản</h2>
+        <form action="">
+            <label for="usrName">Tên đăng nhập: </label>
+            <input type="text" placeholder="Tên đăng nhập" name="usrName">
+            <br>
+            <label for="pass">Mật khẩu: </label>
+            <input type="password" name="pass">
+        </form>
+        <br>
+        <input type="submit" value="đăng kí">
+    </div>
+    <h1>Bài 2:</h1>
+    <br>
+    <div class="bt">
+        <h2>Thông tin của bạn:</h2>
+        <hr style="height: 2px; background-color: black;">
+        <table align="center" style="width: 100%; border-spacing: 0;" >
+            <tbody>
+                <tr>
+                    <td style="width: 40%; text-align: right;"><label for="email" style="font-style: oblique;"></label>Email: </td>
+                    <td ><input type="text" name="email" style="width: 60%"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td style="width: 40%; text-align: right;"><label for="name" style="font-style: oblique;"></label>Họ và tên: </td>
+                    <td ><input type="text" name="name" style="width: 60%"></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>Góp ý của bạn: </h2>
+        <hr style="height: 2px; background-color: black;">
+        <table align="center" style="width: 100%; border-spacing: 0;" >
+            <tr>
+                <td style="width: 40%; text-align: right;"><label for="title" style="font-style: oblique;"></label>Tiêu đề: </td>
+                <td ><input type="text" name="title" style="width: 60%"></td>
+            </tr>
+        </table>
+        <div align="center" style="width: 100%;">
+            <label for="suggestion" style="width: 40%; float: left; text-align: right;">Phần góp ý:</label>
+            <textarea name="suggestion" id="suggestion" style="width: 30%; float: left;"></textarea>
+        </div>
+
+    </div>
+    <h1>Bài 3:</h1>
+    <br>
+    <div class="bt" style="background-color: #858a7ceb;">
+        <center>
+            <h1>Nghệ An</h1>
+        </center>
+        <h2> 
+            <ol type="I" >
+                <li>Giới thiệu sơ lược về tỉnh Nghệ An</li>
+            </ol>
+        </h2>
+            <p style="font-size: 20px; font-family: 'Times New Roman', Times, serif;">Nghệ An là tỉnh nằm ở vị trí trung tâm vùng Bắc Trung Bộ, là địa phương có lịch sử hình thành và phát triển lâu đời, giàu truyền thống cách mạng và tinh thần hiếu học; có tài nguyên văn hóa phong phú và đặc sắc, quê hương của di sản Dân ca Ví, Giặm Nghệ Tĩnh đã được UNESCO ghi danh vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại. Nghệ An còn là vùng đất “địa linh nhân kiệt”, giàu truyền thống văn hóa, tinh thần đấu tranh cách mạng, là quê hương của nhiều chí sỹ yêu nước, đặc biệt là quê hương của Chủ tịch Hồ Chí Minh - Lãnh tụ thiên tài của Đảng và Nhân dân ta, Anh hùng Giải phóng dân tộc, Danh nhân Văn hoá kiệt xuất được cả thế giới công nhận.</p>
+        <center>    
+            <iframe width="1120" height="630" src="https://www.youtube.com/embed/b0tCeCAjTVE?si=nBZMC1GUJWtwAber" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>
+    </div>
+</body>
+</html>
